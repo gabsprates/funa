@@ -1,0 +1,9 @@
+{
+  "name": "funa",
+  "version": "0.0.1",
+  "description": "Finding interface widgets on test environment",
+  "main": "index.js",
+  "repository": "https://github.com/gabsprates/funa",
+  "author": "Gabriel Prates <gabsprates@gmail.com>",
+  "license": "MIT"
+}
