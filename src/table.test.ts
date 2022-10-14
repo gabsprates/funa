@@ -1,4 +1,4 @@
-import { screen, within } from "@testing-library/dom";
+import { within } from "@testing-library/dom";
 import { findTable } from "./table";
 
 describe("findTable", () => {

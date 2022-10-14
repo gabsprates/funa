@@ -1,1 +1,1 @@
-export const sum = (x: number, y: number) => x + y;
+export { findTable } from "./table";
