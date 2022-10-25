@@ -6,7 +6,17 @@ import { BoundFunctions, queries } from "@testing-library/dom";
 
 type ParentType = BoundFunctions<typeof queries>;
 
+export type FindListFn = (parent?: ParentType) => Promise<IListElement>;
 export type FindTableFn = (parent?: ParentType) => Promise<ITableElement>;
+
+/**
+ * List
+ */
+
+ export interface IListElement {
+  element: HTMLElement;
+  items: () => HTMLElement[];
+}
 
 /**
  * Table
